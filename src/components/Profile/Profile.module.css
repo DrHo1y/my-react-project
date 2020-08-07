@@ -1,0 +1,43 @@
+.content {
+    grid-area: c;
+  }
+  
+  .backImage {
+    object-fit: cover;
+    width: 990px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .person {
+    display: grid;
+    grid-template-areas: 
+    "avatar name"
+    "avatar data";
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: 2fr 10fr;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .avatar {
+    width: 150px;
+    grid-area: avatar;
+  }
+  .name {
+    grid-area: name;
+  }
+    .name p {
+      margin: 0;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  .personData {
+    grid-area: data;
+  }
+    .personData p {
+      margin: 0;
+    }
