@@ -3,10 +3,10 @@ import s from './Navbar.module.css';
 
 let Nav = () => (
     <nav className={s.nav}>
-        <div className={`${s.item} ${s.active}`}>
+        <div className={s.item}>
             <a src='#'>Profile</a>
         </div>
-        <div className={s.item}>
+        <div className={`${s.item} ${s.active}`}>
             <a src='#'>Message</a>
         </div>
         <div className={s.item}>
