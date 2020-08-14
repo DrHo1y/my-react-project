@@ -7,7 +7,7 @@ let Profile = () => (
             <img className={s.backImage} src='https://cdn.collider.com/wp-content/uploads/2017/11/star-wars-the-last-jedi-millenium-falcon-image.jpg' />
         </div>
         <div className={s.person}>
-            <img className={s.avatar} src='https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg' />
+            <img className={s.avatar} src='https://cs16planet.ru/steam-avatars/images/avatar3219.jpg' />
             <div className={s.name}>
                 <p>Valentin R.</p>      
             </div>
