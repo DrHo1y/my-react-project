@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 let Profile = () => (
-    <div className={s.content}>
+    <div>
         <div className={s.back}>
             <img className={s.backImage} src='https://cdn.collider.com/wp-content/uploads/2017/11/star-wars-the-last-jedi-millenium-falcon-image.jpg' />
         </div>
