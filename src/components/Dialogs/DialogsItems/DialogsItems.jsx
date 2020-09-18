@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './DialogsItems.module.css';
 import { NavLink } from 'react-router-dom';
+
 let DialogsItems = (props) => (
     
     <div className={s.dialogsItems}>

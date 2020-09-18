@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Dialogs.module.css';
 import DialogsItems from './DialogsItems/DialogsItems';
+import Message from './Message/Message';
 
 
 let Dialogs = (props) => (
@@ -12,11 +13,9 @@ let Dialogs = (props) => (
             <DialogsItems name="Valentine" id="4"/>
             <DialogsItems name="Maxim" id="5"/>
         </div>
-        <div className={s.messages}>
-            <div className={s.message}>Hi</div>
-            <div className={s.message}>Hello!</div>
-            <div className={s.message}>How are you?</div>
-        </div>
+        <div className="messages">
+            <Message message="Hi"/>
+        </div>     
     </div>
 )
 
